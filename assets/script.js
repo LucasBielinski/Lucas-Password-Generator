@@ -13,6 +13,9 @@ function generatePassword() {
     return;
   }
   userInput = parseInt(userInput);
+  if (userInput < 8 || userInput > 128) {
+    return; 
+  }
 
 var useSpecialCharacters = confirm("would you like to use special characters?");
 var useUppercaseLetter = confirm("would you like to use uppercase letters?");
@@ -20,16 +23,16 @@ var useLowercaseLetter = confirm("would you like to use lower case letters?");
 var useNumbers = confirm("would you like to use numbers?");
 
  if (useSpecialCharacters) {
-  
+ empty.concat(specialCharacters)
  }
  if (useUppercaseLetter) {
-
+empty.concat(uppercaseLetters)
  }
  if (useLowercaseLetter) {
-
+empty.concat(lowercaseLetters)
  }
  if (useNumbers) {
-  
+  empty.concat(numbers)
  }
 }
 // Write password to the #password input

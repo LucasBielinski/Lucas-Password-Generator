@@ -13,6 +13,7 @@ N/A
 To use, simply click on the generate password button, type in the number of characters you would like it to be, and answer the following questions. Note, that if you enter in an erroneous number, nothing at all, or answer all questions with "no". You will be met with an "unable to generate password" message. If this happens, simply click on the generate password button again.
 
   ![Image of password generator](./assets/site.png)
+  https://lucasbielinski.github.io/password-generator/
 
 ## Credits
 N/A
